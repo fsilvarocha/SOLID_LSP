@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SOLID_LSP
 {
@@ -15,6 +11,7 @@ namespace SOLID_LSP
             DataCadastro = dataCadastro;
             Nome = nome;
         }
+
         public override bool ClientePremium()
         {
             return DataCadastro.Year <= 2017;

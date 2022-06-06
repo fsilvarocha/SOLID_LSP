@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SOLID_LSP
 {
@@ -18,7 +14,7 @@ namespace SOLID_LSP
 
         public override bool ClientePremium()
         {
-            //não poderia ter esse método, 
+            //não poderia ter esse método,
             throw new NotImplementedException();
         }
     }
